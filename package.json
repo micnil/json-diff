@@ -13,14 +13,15 @@
   "main": "lib/index.js",
   "bin": "bin/json-diff.js",
   "scripts": {
-    "prepare": "coffee -c lib",
+    "prepare": "coffee -o build -c lib && cp lib/cli.js build/cli.js",
     "test": "mocha test/*.coffee",
     "cov": "rm -rf lib-cov; jscoverage lib lib-cov; env JSLIB=lib-cov mocha -R dot && env JSLIB=lib-cov mocha -R html-cov >coverage.html; open coverage.html"
   },
   "dependencies": {
     "cli-color": "~0.1.6",
     "difflib": "~0.2.1",
-    "dreamopt": "~0.6.0"
+    "dreamopt": "~0.6.0",
+    "simple-git": "^2.35.2"
   },
   "devDependencies": {
     "coffee-script": "^1.12.7",

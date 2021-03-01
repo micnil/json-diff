@@ -3,5 +3,6 @@
 /doc
 /test
 /lib-cov
+/lib
 coverage.html
 yarn.lock
