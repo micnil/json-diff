@@ -3,14 +3,14 @@
   "contributors": [
     "Gavriel Fleischer <flocsy@gmail.com>"
   ],
-  "name": "json-diff",
+  "name": "json-git-diff",
   "description": "JSON diff",
   "version": "0.5.3",
-  "homepage": "https://github.com/andreyvit/json-diff",
+  "homepage": "https://github.com/micnil/json-diff",
   "repository": {
-    "url": "git@github.com:andreyvit/json-diff.git"
+    "url": "git@github.com:micnil/json-diff.git"
   },
-  "main": "lib/index.js",
+  "main": "build/index.js",
   "bin": "bin/json-diff.js",
   "scripts": {
     "prepare": "coffee -o build -c lib && cp lib/cli.js build/cli.js",
