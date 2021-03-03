@@ -1,11 +1,12 @@
 {
   "author": "Andrey Tarantsov <andreyvit@me.com>",
   "contributors": [
-    "Gavriel Fleischer <flocsy@gmail.com>"
+    "Gavriel Fleischer <flocsy@gmail.com>",
+    "Michael Nilsson <michael@nilsson.dev>"
   ],
   "name": "json-git-diff",
-  "description": "JSON diff",
-  "version": "0.0.1",
+  "description": "JSON git diff",
+  "version": "0.0.2",
   "homepage": "https://github.com/micnil/json-diff",
   "repository": {
     "url": "git@github.com:micnil/json-diff.git"
